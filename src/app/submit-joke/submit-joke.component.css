@@ -1,0 +1,44 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+
+    border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #333333;
+}
+
+input[type=submit] {
+  background-color: 
+  #f8e604;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f9eb36;
+}
+
+h3{
+color: #262626;
+text-decoration: underline;
+}
+
+#sendJoke{
+background-color: white;
+/*opacity: 0.2;*/
+padding: 30px;
+border-radius: 5px;
+}
